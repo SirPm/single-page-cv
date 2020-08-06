@@ -1,0 +1,415 @@
+/*************************************
+    General Section
+*************************************/
+
+* {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgba(24, 3, 61, 0.829);
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgba(24, 3, 61, 0.829);
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgba(24, 3, 61, 0.829);
+}
+
+p, a {
+    font-size: 1.2rem;
+}
+
+#hamburger {
+    display: none;
+}
+
+
+/*************************************
+    Header Section
+*************************************/
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgba(24, 3, 61, 0.829);
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    background-color: rgb(240, 80, 6);
+    color: #ffffff;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+}
+
+#header-intro {
+    background-color: #ecf5ff;
+    height: 60vh;
+}
+
+#intro-text {
+    padding-top: 9rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(240, 80, 6);
+}
+
+#header-intro h1 {
+    color: rgba(24, 3, 61, 0.829);
+    text-align: center;
+}
+
+#header-intro h3 {
+    /* margin-left: 29.7%; */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#objectives {
+    /* margin-left: 29.7%; */
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#cv-and-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+#cv-and-contact a {
+    color: rgba(24, 3, 61, 0.829);
+    border: 0.1rem solid rgb(240, 80, 6);
+    background-color: transparent;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem 1.9rem;
+    margin-right: 1rem;
+}
+
+#cv-and-contact a:hover {
+    background-color: rgb(240, 80, 6);
+    color: #ffffff;
+    border-radius: 2rem;
+    font-weight: 600;
+    padding: 1rem 1.9rem;
+}
+
+
+
+
+/*************************************
+    Profile Section
+*************************************/
+
+#about {
+    text-align: center;
+    margin: 9rem;
+}
+
+#about h3 {
+    color: rgba(24, 3, 61, 0.829);
+}
+
+#about-me-underline {
+    width: 5%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+#profile img {
+    width: 17%;
+    border-radius: 50%;
+    border: 1rem solid rgb(240, 80, 6);
+    margin-left: 42%;
+}
+
+#bio-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.8rem;
+}
+
+#bio-data h3 {
+    margin-bottom: 1.5rem;
+}
+
+#bio-data-underline {
+    width: 5%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+}
+
+#bio-data ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 130%;
+}
+
+#bio-data ul strong, #bio-data ul em {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/*************************************
+    Portfolio And Education Section
+*************************************/
+
+#portfolio-and-education {
+    background-color: #ecf5ff;
+    padding: 10rem;
+    margin-top: 10rem;
+}
+
+#portfolio {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#portfolio h3 {
+    margin-bottom: 1rem;
+}
+
+#projects-underline {
+    width: 5%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+}
+
+#portfolio p {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+#portfolio a {
+    font-size: 1.5rem;
+}
+
+#education {
+    margin-top: 12rem;
+}
+
+#education h3 {
+    margin-left: 15%;
+    margin-bottom: 2rem;
+}
+
+#education-underline {
+    width: 8%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+    margin-left: 15%;
+}
+
+#education div p strong, #education div strong, #education div p {
+    font-size: 1.5rem;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.lasu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*************************************
+    Experience Section
+*************************************/
+
+#experience {
+    margin-top: 15rem;
+}
+
+#experience h2 {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+#experience-underline {
+    width: 5%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 3.5rem;
+    margin-top: -7rem;
+}
+
+#experience div p strong, #experience ul li span, #experience h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+#experience h3, #experience ul li {
+    margin-left: 15%;
+    margin-top: 1.5rem;
+}
+
+
+
+/*************************************
+    Gallery Section
+*************************************/
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+
+#gallery h2 {
+    margin-bottom: 12rem;
+    text-align: center;
+}
+
+#gallery-underline {
+    width: 5%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 10rem;
+    margin-top: -11rem;
+}
+
+#gallery div img {
+    width: 25%;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+#image1, #image2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+
+
+/*************************************
+    Contact Section
+*************************************/
+
+#contact {
+    margin-left: 6.5%;
+    margin-top: 15rem;
+}
+
+#contact h2 {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+#contact-underline {
+    width: 5%;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: rgb(240, 80, 6);
+    border: 0.2rem solid rgb(240, 80, 6);
+    border-radius: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+    margin-left: 7%;
+}
+
+.contact strong, .contact span {
+    font-size: 1.9rem;
+}
+
+.contact {
+    margin-bottom: 1rem;
+}
+
+.contact a {
+    font-size: 1.5rem;
+}
+
+
+/*************************************
+    Footer Section
+*************************************/
+
+footer {
+    background-color: rgba(5, 5, 5, 0.829);
+    margin-top: 34rem;
+    padding-top: 2rem; 
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(240, 80, 6);
+    margin-top: 2%;
+}

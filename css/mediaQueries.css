@@ -1,0 +1,301 @@
+/*************************************
+    Header Section
+*************************************/
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 3rem;
+        color: rgba(24, 3, 61, 0.829);
+    }
+    
+    h2 {
+        font-size: 2rem;
+        color: rgba(24, 3, 61, 0.829);
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        color: rgba(24, 3, 61, 0.829);
+    }
+    
+    p, a {
+        font-size: 1rem;
+    }
+    
+    .hidden {
+        display: none;
+    }
+
+    #hamburger {
+        border: 0.2rem solid rgb(240, 80, 6);
+        padding: 0.4rem;
+        margin-top: 3rem;
+        float: right;
+        margin-right: 5%;
+        cursor: pointer;
+        display: block;
+    }
+
+    #hamburger img {
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        animation: fadeInDown 1.5s;
+        clear: right;
+    }
+
+    @keyframes fadeInDown {
+        from {
+            transform: translateY(-10%);
+        } to {
+            transform: translateY(0%);
+        }
+    }
+
+    nav ul li {
+        margin-bottom: 3rem;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgb(240, 80, 6);
+        color: #ffffff;
+        border-radius: 2rem;
+        font-size: 1.4rem;
+        padding: 1rem 3rem;
+    }
+
+    #intro-text {
+        padding-top: 7rem;
+    }
+
+    #cv-and-contact {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 6rem;
+    }
+    
+    #about {
+        margin: 0rem auto;
+        margin-top: 5rem;
+    }
+
+    #about h3 {
+        font-size: 2rem;
+        margin-bottom: 0.7rem;
+    }
+
+    #about-me-underline {
+        width: 10%;
+        height: 0.3rem;
+        margin: 0 auto;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    #about p {
+        width: 90%;
+        margin-top: 2rem;
+        margin-bottom: 8.7rem;
+    }
+    
+    #profile img {
+        width: 50%;
+        border-radius: 50%;
+        border: 0.3rem solid rgb(240, 80, 6);
+        margin-top: 5rem;
+        margin-left: 25%;
+    }
+
+    #bio-data {
+        margin-top: 4rem;
+    }
+    
+    #bio-data h3 {
+        margin-bottom: 1rem;
+    }
+
+    #bio-data-underline {
+        width: 15%;
+        height: 0.3rem;
+        margin: 0 auto;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    #bio-data ul li {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 130%;
+        margin-left: -3rem;
+    }
+
+    #portfolio-and-education {
+        padding: 6rem;
+        margin-top: 4rem;
+    }
+    
+    #portfolio h3 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    #projects-underline {
+        width: 15%;
+        height: 0.3rem;
+        margin: 0 auto;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    #education {
+        margin-top: 8rem;
+    }
+    
+    #education h3 {
+        font-size: 2rem;
+        margin-left: -4rem;
+    }
+
+    #education-underline {
+        width: 40%;
+        height: 0.3rem;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 2.5rem;
+        margin-left: -4rem;
+        margin-top: -1rem;
+    }
+    
+    #education div p strong, #education div strong, #education div p {
+        font-size: 1.3rem;
+    }
+    
+    .edu {
+        display: flex;
+        justify-content: space-between;
+        width: 110%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-left: -4rem;
+    }
+
+    /*************************************
+        Experience Section
+    *************************************/
+
+    #experience h2 {
+        margin-top: 10rem;
+    }
+    
+    #experience-underline {
+        width: 20%;
+        height: 0.3rem;
+        margin: 0 auto;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 3rem;
+        margin-top: -7rem;
+    }
+
+    #work {
+        flex-direction: column;
+        margin-left: 1rem;
+        width: 90%;
+    }
+    
+
+    /*************************************
+        Gallery Section
+    *************************************/
+
+    #gallery {
+        display: flex;
+        flex-direction: column;
+        /* width: 70%; */
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+    
+    #gallery h2 {
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    #gallery-underline {
+        width: 30%;
+        height: 0.3rem;
+        margin: 0 auto;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 5rem;
+        margin-top: -4rem;
+    }
+    
+    #gallery div img {
+        width: 45%;
+        margin-bottom: 5rem;
+    }
+    
+    #image1, #image2 {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+
+    /*************************************
+        Contact Section
+    *************************************/
+
+    #contact {
+        margin-left: 6.5%;
+    }
+
+    #contact h2 {
+        margin-top: 5rem;
+    }
+
+    #contact-underline {
+        width: 30%;
+        height: 0.3rem;
+        background-color: rgb(240, 80, 6);
+        border: 0.3rem solid rgb(240, 80, 6);
+        border-radius: 5rem;
+        margin-bottom: 3rem;
+        margin-top: -1rem;
+        margin-left: 0;
+    }
+
+    .contact {
+        margin-bottom: 1rem;
+    }
+
+    .contact a {
+        font-size: 1.2rem;
+    }
+
+
+    /*************************************
+        Footer Section
+    *************************************/
+
+    footer p {
+        margin-top: 8%;
+    }
+
+}
