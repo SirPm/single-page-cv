@@ -1,48 +1,4 @@
 /*************************************
-        Nav Section
-*************************************/
-
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    nav {
-        justify-content: flex-end;
-    }
-
-    .nav-links {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 10vh;
-        height: 65vh;
-        background-color: #ecf5ff;
-        opacity: 0.9;
-        flex-direction: column;
-        align-items: center;
-        transform: translateX(-100%);
-        transition: transform 0.5s ease-in;
-    }
-
-    .nav-links li {
-        opacity: 0;
-    }
-
-    nav ul li a:hover {
-        margin-left: 4rem;
-        font-size: 1.6rem;
-    }
-
-    .burger {
-        display: block;
-        cursor: pointer;
-    }
-}
-
-
-
-/*************************************
     Header Section
 *************************************/
 
