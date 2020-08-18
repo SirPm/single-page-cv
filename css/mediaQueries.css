@@ -23,7 +23,7 @@
         font-size: 1rem;
     }
     
-    .hidden {
+    /* .hidden {
         display: none;
     }
 
@@ -66,7 +66,7 @@
         border-radius: 2rem;
         font-size: 1.4rem;
         padding: 1rem 3rem;
-    }
+    } */
 
     #intro-text {
         padding-top: 7rem;
