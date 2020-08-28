@@ -208,11 +208,11 @@ nav ul li a:hover {
     font-size: 1.5rem;
     margin-top: 1rem;
     color: #ffffff;
-    overflow: hidden; 
+    /*overflow: hidden; 
     border-right: .15em solid orange; 
     margin: 0 auto; 
     letter-spacing: .15em;
-    animation: typing 1.5s steps(40, end), blink-caret .75s step-end infinite;
+    animation: typing 1.5s steps(40, end), blink-caret .75s step-end infinite;*/
 }
 
 /* The typing effect */
