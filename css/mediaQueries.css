@@ -1,3 +1,55 @@
+@media screen and (max-width: 1050px) {
+    
+    #cv-and-contact {
+        width: 30%;
+    }
+
+}
+
+
+@media screen and (max-width: 815px) {
+    
+    #cv-and-contact {
+        width: 40%;
+    }
+
+    .links-and-socials {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .footer-links {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: -5rem;
+    }
+
+    .socials {
+        width: 40%;
+        align-self: flex-end;
+    }
+
+    footer {
+        height: 22vh;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    
+    #cv-and-contact {
+        width: 50%;
+        margin-top: 3rem;
+    }
+
+    
+}
+
+
+
+
 /*************************************
     Header Section
 *************************************/
@@ -22,51 +74,6 @@
     p, a {
         font-size: 1rem;
     }
-    
-    /* .hidden {
-        display: none;
-    }
-
-    #hamburger {
-        border: 0.2rem solid rgb(240, 80, 6);
-        padding: 0.4rem;
-        margin-top: 3rem;
-        float: right;
-        margin-right: 5%;
-        cursor: pointer;
-        display: block;
-    }
-
-    #hamburger img {
-        margin: 0 auto;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        animation: fadeInDown 1.5s;
-        clear: right;
-    }
-
-    @keyframes fadeInDown {
-        from {
-            transform: translateY(-10%);
-        } to {
-            transform: translateY(0%);
-        }
-    }
-
-    nav ul li {
-        margin-bottom: 3rem;
-    }
-    
-    nav ul li a:hover {
-        background-color: rgb(240, 80, 6);
-        color: #ffffff;
-        border-radius: 2rem;
-        font-size: 1.4rem;
-        padding: 1rem 3rem;
-    } */
 
     #intro-text {
         padding-top: 7rem;
@@ -105,6 +112,11 @@
         margin-top: 2rem;
         margin-bottom: 8.7rem;
     }
+
+    .bio-data {
+        flex-direction: column;
+    }
+    
     
     #profile img {
         width: 50%;
@@ -299,4 +311,24 @@
         margin-top: 8%;
     }
 
+}
+
+
+@media screen and (max-width: 650px) {
+    #about p {
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer p {
+        margin-top: 14%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #cv-and-contact a  {
+        margin-top: -4rem;
+    }
 }

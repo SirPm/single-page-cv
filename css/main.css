@@ -9,9 +9,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    /* background-image: linear-gradient(rgba(25, 4, 59, 0.2), rgba(28, 4, 29, 0.2)); */
+}
+
 h1 {
     font-size: 4rem;
-    color: rgba(24, 3, 61, 0.829);
+    /* color: rgba(24, 3, 61, 0.829); */
 }
 
 h2 {
@@ -38,16 +43,19 @@ p, a {
 *************************************/
 
 header {
-    background-color: #ecf5ff;
+    /* background-color: #ecf5ff; */
+    background-image: linear-gradient(rgba(25, 4, 59, 0.7), rgba(28, 4, 29, 0.7)), url("../images/codeInLaptop_resize_57.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 10vh;
+    min-height: 15vh;
     font-family: 'Poppins', sans-serif;
-    background-color: #ecf5ff;
+    /* background-color: #ecf5ff; */
     width: 80%;
     margin: auto;
 }
@@ -75,7 +83,7 @@ nav ul li a:hover {
 }
 
 .nav-links a {
-    color: #181313f3;
+    color: #ffffff;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -89,7 +97,7 @@ nav ul li a:hover {
 .burger div {
     width: 25px;
     height: 2px;
-    background-color: #0f0d0df3;
+    background-color: white;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -109,7 +117,8 @@ nav ul li a:hover {
         left: 0;
         top: 10vh;
         height: 65vh;
-        background-color: #ecf5ff;
+        /* background-color: #ecf5ff; */
+        background-image: linear-gradient(rgba(25, 4, 59, 0.8), rgba(28, 4, 29, 0.8));
         opacity: 0.9;
         flex-direction: column;
         align-items: center;
@@ -121,8 +130,11 @@ nav ul li a:hover {
         opacity: 0;
     }
 
+    .nav-links a {
+        color: #ffffff;
+    }
+
     nav ul li a:hover {
-        margin-left: 4rem;
         font-size: 1.6rem;
     }
 
@@ -166,7 +178,7 @@ nav ul li a:hover {
 }
 
 #header-intro {
-    background-color: #ecf5ff;
+    /* background-color: #ecf5ff; */
     height: 60vh;
 }
 
@@ -175,11 +187,12 @@ nav ul li a:hover {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-    color: rgb(240, 80, 6);
+    color: white;
 }
 
 #header-intro h1 {
-    color: rgba(24, 3, 61, 0.829);
+    /* color: rgba(24, 3, 61, 0.829); */
+    color: white;
     text-align: center;
 }
 
@@ -194,6 +207,24 @@ nav ul li a:hover {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
+    color: #ffffff;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    /* animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; */
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange; }
 }
 
 #cv-and-contact {
@@ -201,11 +232,12 @@ nav ul li a:hover {
     justify-content: space-between;
     width: 23%;
     margin: 0 auto;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 #cv-and-contact a {
-    color: rgba(24, 3, 61, 0.829);
+    /* color: rgba(24, 3, 61, 0.829); */
+    color: #ffffff;
     border: 0.1rem solid rgb(240, 80, 6);
     background-color: transparent;
     border-radius: 2rem;
@@ -251,20 +283,29 @@ nav ul li a:hover {
 
 #about p {
     font-size: 1.5rem;
-    width: 80%;
+    /* width: 80%; */
+    letter-spacing: 0.2rem;
+    line-height: 3rem;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 10rem;
 }
 
+.bio-data {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
 #profile img {
-    width: 17%;
-    height: 17%;
+    width: 30%;
+    /* height: 17%; */
     /* border-radius: 50%; */
     border: 0.3rem solid rgb(240, 80, 6);
     border-top-left-radius: 4rem;
     border-bottom-right-radius: 4rem;
-    margin-left: 42%;
+    /* margin-left: 42%; */
 }
 
 #bio-data {
@@ -279,7 +320,7 @@ nav ul li a:hover {
 }
 
 #bio-data-underline {
-    width: 5%;
+    width: 60%;
     height: 0.2rem;
     margin: 0 auto;
     background-color: rgb(240, 80, 6);
@@ -495,8 +536,8 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
-.contact a {
-    font-size: 1.5rem;
+.contact strong, .contact a, .contact span {
+    font-size: 1.4rem;
 }
 
 
@@ -506,15 +547,59 @@ nav ul li a:hover {
 
 footer {
     background-color: rgba(5, 5, 5, 0.829);
-    margin-top: 34rem;
+    margin-top: 10rem;
     padding-top: 2rem; 
     bottom: 0;
     width: 100%;
-    height: 10rem;
+    height: 20vh;
+}
+
+.links-and-socials {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.footer-links li a {
+    transition: all 0.5s ease;
+}
+
+.footer-links li a:hover {
+    background-color: rgb(240, 80, 6);
+    color: #ffffff;
+    border-radius: 2rem;
+    font-size: 12px;
+    padding: 1rem 2rem;
+}
+
+ .footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    align-items: center;
+} 
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 footer p {
     text-align: center;
     color: rgb(240, 80, 6);
-    margin-top: 2%;
+    margin-top: 5%;
 }
