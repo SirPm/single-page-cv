@@ -33,7 +33,7 @@
             <h3>Objectives</h3>
             <p id="objectives">To strive to add value and produce outstanding results by working in a challenging organization that promotes creative thinking and career opportunities.</p>
             <div id="cv-and-contact">
-                <a href="ODUMOSU OLUWAPELUMI.pdf">Download CV</a>
+                <a href="#">Download CV</a>
                 <a href="#contact">Contact Me</a>
             </div>
         </div>
@@ -54,7 +54,7 @@
                         <li><strong>Date of birth:</strong><em>21st July</em></li>
                         <li><strong>State of origin:</strong><em>Ogun state</em></li>
                         <li><strong>Nationality:</strong><em>Nigerian</em></li>
-                        <li><strong>Tech Stack:</strong><em>HTML5, CSS3, BOOTSTRAP, JavaScript</em></li>
+                        <li><strong>Tech Stack:</strong><em>HTML5, CSS3, Bootstrap, JavaScript, jQuery</em></li>
                         <li><strong>Alias:</strong><em>SirPm a.k.a Lupeim</em></li>
                         <li><strong>Favorite Language:</strong><em>JavaScript</em></li>
                     </ul> 
@@ -65,10 +65,22 @@
             <div id="portfolio">
                 <h3>Projects</h3>
                 <hr id="projects-underline">
-                <p>Quiz Application: <a href="https://jsminiquiz.netlify.app/">https://jsminiquiz.netlify.app/</a></p>
-                <p>JavaScript Budget Calculator: <a href="https://jsbudgetapp.netlify.app/">https://jsbudgetapp.netlify.app/</a></p>
-                <p>Rock, Paper, Scissors Game: <a href="https://sirpm-rock-paper-scissors.netlify.app/">https://sirpm-rock-paper-scissors.netlify.app/</a></p>
-                <p>Foodie Landing Page: <a href="https://foodie-sirpm.netlify.app">https://foodie-sirpm.netlify.app</a></p>
+                <div class="projects">
+                    <a href="https://jsminiquiz.netlify.app/"><img src="./images/Quiz App.png" alt="quiz"></a>
+                    <p>Quiz Application</p>
+                </div>
+                <div class="projects">
+                    <a href="https://jsbudgetapp.netlify.app/"><img src="./images/Budget.png" alt="Budget"></a>
+                    <p>JavaScript Budget Calculator</p>
+                </div>
+                <div class="projects">
+                    <a href="https://foodie-sirpm.netlify.app"><img src="./images/Foodie Landing Page.png" alt="foodie"></a>
+                    <p>Foodie Landing Page</p>
+                </div>
+                <div class="projects">
+                    <a href="https://easy-bank-landing-page-07.netlify.app/"><img src="./images/Easy Bank.png" alt="easy"></a>
+                    <p>Easy Bank Landing Page</p>
+                </div>
             </div>
             <div id="education">
                 <h3>Education</h3>
@@ -134,29 +146,30 @@
             </div>
             <div class="contact">
                 <strong>Home Address: </strong>
-                <span>Zone C Iba Housing Estate, Lagos State.</span>
+                <span>Onihale, Ifo, Ogun State.</span>
             </div>
+            <h3 id="send">Send Me A Message</h3>
+            <form action="https://formspree.io/meqrbnzq" method="POST">
+                <label>Your email:
+                <input type="text" name="_replyto" placeholder="Email Here">
+                </label>
+                <label>Your message:
+                <textarea name="message" placeholder="Type your message"></textarea>
+                </label>
+                <button id="submitBtn" type="submit">Send</button>
+            </form>
         </div>
     </main>
     <footer>
         <div class="links-and-socials">
             <div class="socials">
-                <img src="images/fb.svg" alt="fb">
-                <img src="images/twitter.svg" alt="tw">
-                <img src="images/icon-instagram.svg" alt="insta">
-                <img src="images/youtube.svg" alt="youtube">
+                <a href=""><img src="images/fb.svg" alt="fb"></a>
+                <a href="https://twitter.com/OluwaPm"><img src="images/twitter.svg" alt="tw"></a>
+                <a href=""><img src="images/icon-instagram.svg" alt="insta"></a>
+                <a href=""><img src="images/youtube.svg" alt="youtube"></a>
             </div>
-
-            <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Work Experience</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-            </ul>
         </div>
-        <p>All Rights Reserved &copy; 2020</p>
+        <p>All Rights Reserved &copy; 2020 Pelumi Odumosu</p>
     </footer>
 
     <script src="js/main.js"></script>

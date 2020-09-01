@@ -13,23 +13,19 @@
         width: 40%;
     }
 
+    .projects a, .projects p {
+        width: 45%;
+    }
+
     .links-and-socials {
         flex-direction: column-reverse;
         align-items: center;
         height: 10vh;
     }
 
-    .footer-links {
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-start;
-        flex-direction: column;
-        margin-bottom: -5rem;
-    }
-
     .socials {
-        width: 40%;
-        align-self: flex-end;
+        width: 80%;
+        /* align-self: flex-end; */
     }
 
     footer {
@@ -128,6 +124,7 @@
 
     #bio-data {
         margin-top: 4rem;
+        width: 100%;
     }
     
     #bio-data h3 {
@@ -148,8 +145,12 @@
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        width: 130%;
-        margin-left: -3rem;
+        /* width: 130%; 
+        margin-left: -3rem;*/
+    }
+
+    #bio-data ul strong, #bio-data ul em {
+        font-size: 1.3rem;
     }
 
     #portfolio-and-education {
@@ -171,9 +172,28 @@
         border-radius: 5rem;
         margin-bottom: 2.5rem;
     }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .projects a {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .projects p {
+        width: 100%;
+    }
+
+    .projects a img {
+        height: 100%;
+    }
     
     #education {
         margin-top: 8rem;
+        width: 100%;
+        margin: auto;
     }
     
     #education h3 {
@@ -199,10 +219,10 @@
     .edu {
         display: flex;
         justify-content: space-between;
-        width: 110%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 1rem;
-        margin-left: -4rem;
+        /* margin-left: -4rem; */
     }
 
     /*************************************
@@ -307,6 +327,10 @@
         Footer Section
     *************************************/
 
+    .footer-links a {
+        font-size: 10px;
+    }
+
     footer p {
         margin-top: 8%;
     }
@@ -321,14 +345,67 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    #bio-data ul strong {
+        width: 50%;
+    }
+
+    #education {
+        width: 90%;
+    }
+
+    #education h3 {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    #education-underline {
+        border: 0;
+        margin-left: 0;
+    }
+
+    #portfolio-and-education {
+        padding: 0rem;
+    }
+
+    #education div p strong, #education div p, #education div strong {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 350px) {
+    #portfolio {
+        width: 80%;
+    }
+
     footer p {
         margin-top: 14%;
+    }
+
+    input[type="text"], textarea {
+        width: 60%;
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 325px) {
     #cv-and-contact a  {
         margin-top: -4rem;
+    }
+
+    #header-intro {
+        margin-top: -7rem;
+    }
+
+    #objectives {
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #cv-and-contact a {
+        padding: 0.3rem 1rem;
+        margin-bottom: 2rem;
     }
 }
