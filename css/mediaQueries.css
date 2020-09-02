@@ -309,8 +309,8 @@
         margin-top: 5rem;
     }
 
-    #contact h3 {
-        color: rgba(28, 4, 29, 1);
+    #contact h3, #send {
+        color: black;
     }
 
     #contact-underline {
