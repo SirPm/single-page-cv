@@ -25,7 +25,6 @@
 
     .socials {
         width: 80%;
-        /* align-self: flex-end; */
     }
 
     footer {
@@ -116,8 +115,6 @@
     
     #profile img {
         width: 50%;
-        /* border-radius: 50%;
-        border: 0.3rem solid rgb(240, 80, 6); */
         margin-top: 5rem;
         margin-left: 25%;
     }
@@ -145,8 +142,6 @@
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        /* width: 130%; 
-        margin-left: -3rem;*/
     }
 
     #bio-data ul strong, #bio-data ul em {
@@ -222,7 +217,6 @@
         width: 100%;
         margin: 0 auto;
         margin-top: 1rem;
-        /* margin-left: -4rem; */
     }
 
     /*************************************

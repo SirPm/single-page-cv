@@ -391,6 +391,8 @@ from, to { border-color: transparent }
 .projects a {
     display: block;
     width: 25%;
+    text-decoration: none;
+    align-self: center;
 }
 
 .projects a img {
