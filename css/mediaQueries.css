@@ -309,6 +309,10 @@
         margin-top: 5rem;
     }
 
+    #contact h3, #send {
+        color: black;
+    }
+
     #contact-underline {
         width: 30%;
         height: 0.3rem;
