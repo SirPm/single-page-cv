@@ -63,15 +63,23 @@
     
     h3 {
         font-size: 1.5rem;
-        color: rgba(24, 3, 61, 0.829);
+        color: white;
     }
     
     p, a {
         font-size: 1rem;
     }
 
+    #header-intro h3 {
+        margin-top: 3rem;
+    }
+
     #intro-text {
-        padding-top: 7rem;
+        padding-top: 0rem;
+    }
+
+    #objectives {
+        margin-top: 1rem;
     }
 
     #cv-and-contact {
@@ -79,7 +87,7 @@
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
     
     #about {
@@ -194,6 +202,10 @@
     #education h3 {
         font-size: 2rem;
         margin-left: -4rem;
+    }
+
+    #portfolio h3, #education h3 {
+        color: rgba(24, 3, 61, 0.829);
     }
 
     #education-underline {
@@ -340,6 +352,14 @@
 }
 
 @media screen and (max-width: 400px) {
+    nav {
+        min-height: 5vh;
+    }
+
+    #intro-text {
+        padding-top: 1rem;
+    }
+
     #bio-data ul strong {
         width: 50%;
     }
@@ -383,23 +403,9 @@
     }
 }
 
-@media screen and (max-width: 325px) {
-    #cv-and-contact a  {
-        margin-top: -4rem;
-    }
-
-    #header-intro {
-        margin-top: -7rem;
-    }
-
-    #objectives {
-        margin-top: -2rem;
-    }
-}
-
 @media screen and (max-width: 290px) {
     #cv-and-contact a {
-        padding: 0.3rem 1rem;
+        padding: 0.5rem 1rem;
         margin-bottom: 2rem;
     }
 }
