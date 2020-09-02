@@ -111,7 +111,7 @@ nav ul li a:hover {
         position: absolute;
         width: 100%;
         left: 0;
-        top: 10vh;
+        top: 5vh;
         height: 65vh;
         background-image: linear-gradient(rgba(25, 4, 59, 1), rgba(28, 4, 29, 1));
         opacity: 0.9;
@@ -574,6 +574,7 @@ from, to { border-color: transparent }
 #send {
     margin: 3rem;
     font-weight: 600;
+    color: rgba(28, 4, 29, 1);
 }
 
 label {

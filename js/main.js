@@ -24,5 +24,5 @@ navSlide = () => {
 navSlide();
 
 document.querySelector('#cv').addEventListener('click', () => {
-    alert(`Oh I'm sorry, but the cv is unavailable at the moment. Thank you for understanding.`);
+    alert(`Oh I'm sorry, but the cv is unavailable at the moment. But to get it simply send me a message in the contact section and I'll definitely reply with a copy of my cv`);
 });
